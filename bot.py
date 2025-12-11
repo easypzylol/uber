@@ -5,7 +5,7 @@ from telebot import types
 
 # Get bot token from environment variable
 TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
-ADMIN_ID = 7016264130  # Replace with your actual Telegram user ID
+ADMIN_ID = 1247375362  # Replace with your actual Telegram user ID
 
 bot = telebot.TeleBot(TOKEN)
 app = Flask(__name__)
